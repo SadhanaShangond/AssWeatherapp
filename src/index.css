@@ -1,12 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
 
 body {
   @apply bg-gradient-to-br from-sky-100 to-blue-200;
   font-family: 'Inter', sans-serif;
 }
-
 /* Hide scrollbar across all browsers */
 .scrollbar-hide {
   scrollbar-width: none; /* Firefox */
@@ -15,3 +13,4 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
 }
+
